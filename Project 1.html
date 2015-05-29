@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Dennis' IPND Notes</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="TOC">
+    	<h1 id="TOC">Table of Contents</h1>
+	    	<ol>
+	      		<li class="TOC-lesson"><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+	        		<ul>
+	          			<li><a href="#lesson-1-1">The Basics of the Web</a></li>
+	          			<li><a href="#lesson-1-2">Why Computers are Stupid</a></li>
+	          			<li><a href="#lesson-1-3">HTML</a><ul>
+	          				<li><a href="#lesson-1-4">Elements and Tags</a></li>
+	          				<li><a href="#lesson-1-5">Attributes</a></li>
+	          				<li><a href="#lesson-1-6">Inline and Block Elements</a></li>
+	          				<li><a href="#lesson-1-7">The HTML Document Structure</a></li>
+	          			</ul></li>
+	        		</ul>
+	      		</li>
+		      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document</a>
+		        <ul>
+		          <li><a href="#lesson-2-1">Browser Developer Tools</a></li>
+		          <li><a href="#lesson-2-2">HTML and DOM</a></li>
+		          <li><a href="#lesson-2-3">CSS</a></li>
+		          <li><a href="#lesson-2-4">HTML Boxes</a></li>
+		        </ul>
+		      </li>
+		      <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Adding CSS Style and HTML Structure</a>
+		        <ul>
+		          <li><a href="#lesson-3-1">Closer Look at CSS</a></li>
+		          <li><a href="#lesson-3-2">Boxes Revisited</a></li>
+		          <li><a href="#lesson-3-3">Code, Test, Refine</a></li>
+		          <li><a href="#lesson-3-4">Verifiying HTML and CSS</a></li>
+		        </ul>
+		      </li>
+		    </ol>
+	  </div>
+
+	<div class="lesson">
+		<div class="lesson-title">
+			<h1 id="lesson-1">Lesson 1 - The Basics of the Web and HTML</h1>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-1-1">The Basics of the Web</h2>
+			</div>
+			<div class="concept-description">	
+				<p>
+					The <em>world wide web (www)</em> is basically a huge collection of HTML documents, located on many different computers 
+					which communicate via HTTP (<b>H</b>yper<b>T</b>ext <b>T</b>ransfer <b>P</b>rotocol), the main protocol of the web.
+					The many HTML files are connected via hyperlinks (URLs). Web browsers can interpret the HTML files and display them for the user in a more appealing way.
+					The web was invented in the 1990s and today consists of about 30 Billion pages.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-1-2">Why Computers are Stupid</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					Computers are very sensitive to typos because they execute the programmers code literally and they simply do not understand wrong syntax and produce an error. 
+					A human instead could just correct the typo and would still be able to understand the code.<br>
+					A computer is just as smart as the software it is running.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-1-3">HTML</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					HTML stands for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage. <br>
+					It is made up of:<br>
+					- text content (what you see)<br> 
+					- markup (describes how the text should look like)<br>
+					- references to other documents (e.g. images, videos and music)<br>
+					- links to other pages
+				</p>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+					<h3 id="lesson-1-4">Elements and Tags</h3>
+				</div>
+				<div class="concept-description">
+					<p>
+						HTML code is made of elements which are defined by tags.
+						There are many different HTML tags e.g. markup tags to make text <b>bold</b> or <em>italic</em>,
+						the anchor tag to create links like <a href="http://www.udacity.com">www.udacity.com</a><br>
+						or the image tag to include images like this cute fellow <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!">.
+						Other tags are for creating whitespace, like linebreaks<br> or paragraphs.<br>
+						Most HTML elements are defined by an opening tag and a closing tag,
+						but some elements don't need a closing tag. Those are called <b>void tags</b>.
+					</p>
+				</div>
+			<div class="concept">
+				<div class="concept-title">
+					<h3 id="lesson-1-5">Attributes</h3>
+				</div>
+				<div class="concept-description">
+					<p>
+						HTML Attributes are found inside tags and give the tag more variety and options.
+						The anchor tag's "href"-attribute for example is needed to define the URL for a link to another webpage.
+					</p>
+				</div>
+				</div>
+			<div class="concept">
+				<div class="concept-title">
+					<h3 id="lesson-1-6">Inline and Block Elements</h3>
+				</div>
+				<div class="concept-description">
+					<p>
+						HTML elements can be categorized as "inline" or "block", where block elements form an "invisible box"
+						around their content e.g. the paragraph tag or the div and span tags.						
+					</p>
+				</div>
+				</div>
+			</div>
+			<div class="concept">
+				<div class="concept-title">
+					<h3 id="lesson-1-7">The HTML Document Structure</h3>
+				</div>
+				<div class="concept-description">
+					<p>
+						In general the structure of an HTML document is as follows:<br>
+						- Definition of the doctype (doctypes bring different presettings for the HTML document)<br>
+						- Head (title and implementation of CSS and JavaScript can be defined here)<br>
+						- Body (the main content of the webpage)
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<div class="lesson-title">
+			<h1 id="lesson-2">Lesson 2 - Creating a Structured Document</h1>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-2-1">Browser Developer Tools</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					The developer tool of a browser gives the opportunity to have a look at and play around with the sourcecode of a webpage while you can see changes immediately. 
+					By marking an element in the code, the associated object on the webpage will be highlighted.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-2-2">HTML and DOM</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					HTML is (as any other language) defined by a syntax and certain rules.
+					When the sourcecode of a webpage is viewed inside the developer tool of a browser, the HTML elements form a tree-like structure, because elements can include other elements. 				
+					This structure is called DOM tree, where DOM (<b>D</b>ocument <b>O</b>bject <b>M</b>odel) is a language-independent convention for representation of
+					and interaction with objects in HTML (and other markup languages).
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-2-3">CSS</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					CSS stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets and is another language which is used inside HTML to describe the look and formatting of HTML elements.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-2-4">HTML Boxes</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					All objects on a webpage (text, pictures, icons etc.) are structured into boxes, even those which appear
+					to be round or in any other not-even-close-to-square shape.
+					Often those boxes are divided into smaller subboxes and so on.
+					This "boxifying" gives the designer the opportunity to easily change parts of the page without affecting others.
+					To create boxes, the HTML div and span tags can be used. Boxes are labeled with the "class" attribute.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<div class="lesson-title">
+			<h1 id="lesson-3">Lesson 3 - Adding CSS Style and HTML Structure</h1>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-3-1">Closer Look at CSS</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					The word cascading in Cascading Style Sheets is related to the tree-like nature of CSS where child elementsinherit all properties from parent elements.
+					It is possible to apply CSS style to single elements, a group of elements or even all elements of the same tag.
+				</p>
+				<p>
+					This is a great source for all the different CSS properties: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">https://developer.mozilla.org/en-US/docs/Web/CSS/Reference</a>.
+				</p>
+				<p>
+					CSS code is provided in a different file apart from the main *.html file and the implementation of that file happens in the HTML head. It is possible to implement CSS code inside HTML code but this is considered bad programming.
+					It leads to repetition of code which we will avoid at all costs because repetition increases the propability for mistakes and also makes the file bigger and more confusing. It is also much faster to change something when you just have to change the code at one point.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-3-2">Boxes Revisited</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					Every HTML box consists of four elements which are called from outside to inside: margin, border, padding and content. Each of these elements can be adjusted individually and should be defined in percentage rather than pixels because of different display sizes. This <a href="http://assignments.udacity-extras.appspot.com/courses/html-css/samples/box-model.html">demo page</a> gives a good visual example of the HTML box structure.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-3-3">Code, Test, Refine</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					1. Look for natural boxes in your design.<br>
+					2. Look for repeated styles and semantic elements.<br>
+					3. Write your HTML. <br>
+					4. Apply your styles (CSS). <br>
+					5. Fix things. <br>
+					Repeat steps 3 and 4 until it looks like your design mark.
+				</p>
+			</div>
+		</div>
+		<div class="concept">
+			<div class="concept-title">
+				<h2 id="lesson-3-4">Verifying HTML and CSS</h2>
+			</div>
+			<div class="concept-description">
+				<p>
+					To verify if HTML and CSS code is correct and make sure that it complies with standards the following links can be used.<br>
+					For HTML: <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a><br>
+					For CSS: <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">http://jigsaw.w3.org/css-validator/#validate_by_input</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="backtotop">
+		<p>
+			<a href="#TOC">Back to top</a>
+		</p>
+	</div>
+</body>
+
